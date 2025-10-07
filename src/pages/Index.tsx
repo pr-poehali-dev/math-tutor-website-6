@@ -240,8 +240,12 @@ const Index = () => {
                 </div>
               </div>
               <div className="relative animate-slide-up">
-                <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl flex items-center justify-center">
-                  <Icon name="TrendingUp" size={200} className="text-primary/30" />
+                <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="https://cdn.poehali.dev/files/cb42c04a-ef38-48ca-8bb1-65b2b38eb6b6.png" 
+                    alt="Репетитор по математике"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute -top-4 -right-4 bg-white rounded-2xl shadow-lg p-4">
                   <div className="flex items-center gap-2">
